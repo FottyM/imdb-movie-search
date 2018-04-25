@@ -5,19 +5,20 @@ import registerServiceWorker from './registerServiceWorker';
 import { render } from 'react-dom'
 import { createMuiTheme, MuiThemeProvider } from 'material-ui/styles'
 
+
 const theme = createMuiTheme({
   palette: {
     primary: {
-      light: '#009688',
+      light: '#52c7b8',
       main: '#00897B',
-      dark: '#00796B',
-      contrastText: '#E0F2F1',
+      dark: '#00675b',
+      contrastText: '#FFF',
     },
     secondary: {
       light: '#ff7961',
       main: '#f44336',
       dark: '#ba000d',
-      contrastText: '#000',
+      contrastText: '#fff',
     },
   },
 });
